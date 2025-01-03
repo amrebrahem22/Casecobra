@@ -1,10 +1,11 @@
 import { ArrowRight, Check, Star } from "lucide-react";
-import MaxWidthWrapper from "./components/MaxWidthWrapper";
-import Phone from "./components/Phone";
-import { Icons } from "./components/Icons";
-import Reviews from "./components/reviews";
+
+import { Icons } from "../components/Icons";
 import Link from "next/link";
 import { buttonVariants } from "@/components/ui/button";
+import MaxWidthWrapper from "@/components/MaxWidthWrapper";
+import Phone from "@/components/Phone";
+import Reviews from "@/components/reviews";
 
 export default function Home() {
   return (

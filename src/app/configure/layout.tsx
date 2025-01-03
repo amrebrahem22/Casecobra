@@ -1,5 +1,5 @@
 import { ReactNode } from "react";
-import MaxWidthWrapper from "../components/MaxWidthWrapper";
+import MaxWidthWrapper from "../../components/MaxWidthWrapper";
 
 const Layout = ({ children }: { children: ReactNode }) => {
   return (
